@@ -12,15 +12,15 @@ public class Testcase1 extends BaseTest{
 	HomePageEvents homePage = new HomePageEvents();
 	LoginPageEvents loginPage = new LoginPageEvents();
 	@Test
-  public void sampleMethodForEnteringCrrdentialsd() 
-  {
-	  homePage.signInButton();
-	  loginPage.verifyIfLoginPageIsLoaded();
-	  loginPage.enterCredentials();
-	  driver.quit();
-  }
-//	@Test
-//public void aboutTextBox() {
-//		homePage.clickAboutButton();
-//	}
+	public void sampleMethodForEnteringCrrdentialsd() 
+	{
+		homePage.signInButton();
+		loginPage.verifyIfLoginPageIsLoaded();
+		loginPage.enterCredentials();
+		driver.quit();
+	}
+	@Test
+	public void aboutTextBox() {
+		homePage.clickAboutButton();
+	}
 }
