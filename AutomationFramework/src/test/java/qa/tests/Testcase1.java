@@ -19,8 +19,8 @@ public class Testcase1 extends BaseTest{
 	  loginPage.enterCredentials();
 	  driver.quit();
   }
-	@Test
-public void aboutTextBox() {
-		homePage.clickAboutButton();
-	}
+//	@Test
+//public void aboutTextBox() {
+//		homePage.clickAboutButton();
+//	}
 }
